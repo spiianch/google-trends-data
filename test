@@ -1,0 +1,14 @@
+    }
+   ],
+   "source": [
+    "url = \"https://gist.githubusercontent.com/arslanastral/3570f49c8ffa0731cbafc8560532927c/raw/top-grossing-media-franchises.csv\"\n",
+    "df = pd.read_csv(url)\n",
+    "df"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "There are over 60 franchises/IPs from different countries. We will clean the data to only include top Japanese and US IPs."
+   ]
